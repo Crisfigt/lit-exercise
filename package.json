@@ -1,7 +1,7 @@
 {
   "name": "lit",
   "version": "1.0.0",
-  "description": "",
+  "description": "// - Generar método que llame al API de user URL: https://jsonplaceholder.typicode.com/users\r // - Mapear esa respuesta a una propiedad y se pinte en la vista\r // - La vista debe mostrar name-username ...\r // - La vista debe mostrar el correo electrónico",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vaadin/router": "^1.7.5",
+    "lit": "^3.1.3",
     "lit-element": "4.0.5"
   },
   "devDependencies": {
